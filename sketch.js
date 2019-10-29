@@ -4,8 +4,8 @@ function setup() {
   
   angleMode(DEGREES);
  slider = createSlider(0, 255, 3, 20);
- slider.position(400, 70);
-  
+ slider.position(330, 70);
+ 
 
 
  
@@ -26,7 +26,16 @@ function setup() {
     textFont('Ink Free');
          text('ooOOOOOoooOOOOOOoooo',400,140);
          text('oOOooOOoooOOOOOOoooo',400,340);
-         text('ooooooooooOOOOOOoooo',400,440);
+         text('ooooooooooOOOOOOoooo',400,455);
+
+         fill(t,30);
+         textSize(77);
+         textFont('Wingdings');
+              text('NNNNNNNNNNNNNNNNNNNNNNNN',400,230);
+              textSize(57);
+              text('NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN',400,400);
+              textSize(77);
+              text('NNNNNNNNNNNNNNNNNNN',400,520);     
 
     cat(-240,30)
     cat(10,10);
